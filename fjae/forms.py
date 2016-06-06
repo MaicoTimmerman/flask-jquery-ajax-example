@@ -1,4 +1,5 @@
-from flask.ext.wtf import Form, SelectField
+from flask.ext.wtf import Form
+from wtforms.fields import SelectField
 
 
 class VehicleForm(Form):

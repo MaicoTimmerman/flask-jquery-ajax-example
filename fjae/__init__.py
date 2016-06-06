@@ -22,4 +22,4 @@ def create_app():
 
 def run_dev_server():
     app = create_app()
-    app.run()
+    app.run(port=5001)
